@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Rubik:wght@300;400;600&display=swap" rel="stylesheet">
     <link href="../dist/output.css" rel="stylesheet">
     <title>Matheus Portfólio</title>
 
@@ -10,11 +13,11 @@
 <body class="bg-gray-200">
     <header class="pt-1 pb-1 mb-7 ml-44 mr-80 mt-8 p-7">
         <div class="flex justify-between">
-            <h2 class="text-gray-700 text-base font-bold">
+            <h2 class="text-gray-700 text-base font-bold font-Rubik">
                 <i class="fa-regular fa-sparkles"></i>Matheus Peretta
             </h2>
             <nav>
-                <ul class="flex gap-8 text-1sm">
+                <ul class="flex gap-8 text-1sm font-Rubik">
                    <li><a href="#">Sobre Mim</a></li>
                    <li><a href="#">Skills</a></li>
                    <li><a href="#">Hobbies</a></li>
@@ -26,42 +29,47 @@
         </div>
     </header>
     <main>
-        <section class="p-16 mt-2 ml-36 mr-72 flex justify-center items-center">
-            <div class="mr-20">
-                <h2 class="font-bold text-5xl mb-5">Olá, meu nome é Matheus de Oliveira Peretta e construo páginas na web</h2>
-                <p class="font-normal text-xl mb-4">Eu sou formado em Propaganda e Marketing, atuo como Designer e atualmente estou</br> participando no projeto Oracle ONE na Alura</p>
-                <nav>
-                    <ul class="flex gap-10">
-                        <li><a href="#">Github</a></li>
-                        <li><a href="#">LinkedIn</a></li>
-                        <li><a href="#">Instagram</a></li>
-                        <li><a href="#">Currículo</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="w-4/12">
-                <img src="../img/LO1_Cracha_Matheusai_Prancheta 1.jpg" alt="foto Matheus" class="rounded-3xl">
-            </div>
-        </section>
-        <div class="mt-8 p-4 bg-sky-100">
-
-            <section class=" mt-14 ml-32 mr-96 mb-14">
-                <h2 class="text-4xl font-bold mb-6">Sobre Mim</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus.</br> Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Lorem ipsum dolor sit amet, consectetur </br>adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. </br>Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.</p>
+        <div class="bg-azul">
+            <section class="p-16 mt-2 ml-36 mr-72 flex justify-center items-center">
+                <div class="mr-20">
+                    <h2 class="font-bold text-5xl text-white mb-5 font-Rubik">Olá, meu nome é Matheus de Oliveira Peretta e construo páginas na web</h2>
+                    <p class="font-normal text-xl text-gray-300 mb-4 font-Mont">Eu sou formado em Propaganda e Marketing, atuo como Designer e</br>atualmente estou participando no projeto Oracle ONE na Alura</p>
+                    <nav>
+                        <ul class="flex gap-10 text-white font-Rubik">
+                            <li><a href="#">Github</a></li>
+                            <li><a href="#">LinkedIn</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Currículo</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="w-6/12">
+                    <img src="../img/LO1_Cracha_Matheusai_Prancheta 1.jpg" alt="foto Matheus" class="rounded-3xl">
+                </div>
             </section>
-        </div>
+            <div class="mx-36 border border-gray-50 border-opacity-20"></div>
+            <div class="p-4 ml-16">
+    
+                <section class=" mt-10 ml-32 mr-96 mb-14">
+                    <h2 class="text-4xl font-bold mb-6 font-Rubik text-white">Sobre Mim</h2>
+                    <p class="text-gray-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus.</br> Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Lorem ipsum dolor sit amet, consectetur </br>adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. </br>Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.</p>
+                </section>
+            </div>
+
+        </div><!--Apresentação e Sobre-->
+        
 
         <div>
             <section class="ml-36 mr-36">
-                <h2 class="font-bold text-4xl text-center mt-8 mb-8">Skills</h2>
-                <ul class="flex justify-around gap-2">
-                    <li class="w-44 h-40 bg-white rounded p-8 font-bold text-lg"><img src="../img/html.svg" alt="Ícone CSS" class="mt-12 mb-2 ml-2 scale-150">Html 5</li>
-                    <li class="w-44 h-40 bg-white rounded p-8 font-bold text-lg"><img src="../img/js.svg" alt="Ícone CSS" class="mt-12 mb-2 ml-2 scale-150">Javascript</li>
-                    <li class="w-44 h-40 bg-white rounded p-8 font-bold text-lg"><img src="../img/Vector.svg" alt="Ícone CSS" class="mt-12 mb-2 ml-2 scale-150">CSS</li>
-                    <li class="w-44 h-40 bg-white rounded p-8 font-bold text-lg"><img src="../img/Ps.svg" alt="Ícone CSS" class="mt-12 mb-2 ml-2 scale-150">Photoshop</li>
-                    <li class="w-44 h-40 bg-white rounded p-8 font-bold text-lg"><img src="../img/Ai.svg" alt="Ícone CSS" class="mt-12 mb-2 ml-2 scale-150">Illustrator</li>
-                    <li class="w-44 h-40 bg-white rounded p-8 font-bold text-lg"><img src="../img/Ae.svg" alt="Ícone CSS" class="mt-12 mb-2 ml-2 scale-150">After Effects</li>
-                    <li class="w-44 h-40 bg-white rounded p-8 font-bold text-lg"><img src="../img/Fig.svg" alt="Ícone CSS" class="mt-12 mb-2 ml-2 scale-150">Figma</li>
+                <h2 class="font-bold text-4xl text-center mt-8 mb-8 font-Rubik text-azul">Skills</h2>
+                <ul class="flex justify-around gap-2 text-white">
+                    <li class="w-44 h-40 rounded-xl p-8 bg-azul font-bold text-lg"><img src="../img/html.svg" alt="Ícone CSS" class="mt-12 mb-2 ml-2 scale-125">Html 5</li>
+                    <li class="w-44 h-40 rounded-xl p-8 bg-azul font-bold text-lg"><img src="../img/js.svg" alt="Ícone CSS" class="mt-12 mb-2 ml-2 scale-150">Javascript</li>
+                    <li class="w-44 h-40 rounded-xl p-8 bg-azul font-bold text-lg"><img src="../img/Vector.svg" alt="Ícone CSS" class="mt-12 mb-2 ml-2 scale-150">CSS</li>
+                    <li class="w-44 h-40 rounded-xl p-8 bg-azul font-bold text-lg"><img src="../img/Ps.svg" alt="Ícone CSS" class="mt-12 mb-2 ml-2 scale-150">Photoshop</li>
+                    <li class="w-44 h-40 rounded-xl p-8 bg-azul font-bold text-lg"><img src="../img/Ai.svg" alt="Ícone CSS" class="mt-12 mb-2 ml-2 scale-150">Illustrator</li>
+                    <li class="w-44 h-40 rounded-xl p-8 bg-azul font-bold text-lg"><img src="../img/Ae.svg" alt="Ícone CSS" class="mt-12 mb-2 ml-2 scale-150">After Effects</li>
+                    <li class="w-44 h-40 rounded-xl p-8 bg-azul font-bold text-lg"><img src="../img/Fig.svg" alt="Ícone CSS" class="mt-12 mb-2 ml-2 scale-150">Figma</li>
                 </ul>
             </section>
             <section class="ml-36 mr-36">
